@@ -3,7 +3,7 @@ name: Use Terraform and Deploy the snipeit application using Github Actions
 on:
   push: 
     branches:
-      - main
+      - master
   workflow_dispatch:
  
 env: 
