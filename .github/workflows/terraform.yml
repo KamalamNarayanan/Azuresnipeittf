@@ -29,7 +29,7 @@ jobs:
       - name: Deploy Infrastucture
             
         run: |
-          cd ../../terraform
+          cd ../../Terraform
           terraform init --upgrade
           terraform plan
           terraform apply -auto-approve
